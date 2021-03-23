@@ -1,4 +1,5 @@
 # Maqe Bot
+[![Elixir CI](https://github.com/tteerawat/maqe-bot/actions/workflows/elixir.yml/badge.svg)](https://github.com/tteerawat/maqe-bot/actions/workflows/elixir.yml)
 
 ## Setup
 
