@@ -8,7 +8,7 @@ defmodule MaqeBot.MixProject do
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
-      escript: [main_module: MaqeBot.CLI]
+      escript: [main_module: MaqeBot]
     ]
   end
 

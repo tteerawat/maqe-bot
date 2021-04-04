@@ -36,4 +36,13 @@ defmodule MaqeBot do
       Position.change(position, command)
     end)
   end
+
+  @spec main([String.t()]) :: :ok
+  def main(args) do
+    walking_code = List.first(args)
+    %Position{x: x, y: y, direction: direction} = run(walking_code)
+    normalized_direction = direction |> to_string() |> String.capitalize()
+
+    IO.puts("X: #{x} Y: #{y} Direction: #{normalized_direction}")
+  end
 end
